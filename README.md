@@ -1,38 +1,32 @@
 # 👋 Hello, I'm Jorge Blancas
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=28&pause=1000&color=0366D6&center=true&vCenter=true&random=false&width=600&lines=Software+Engineer+II;Full+Stack+Developer;Quality+Engineering+Enthusiast;Azure+DevOps+Specialist" alt="Typing SVG" />
+  <h2>
+    <span>Software Engineer II | Full Stack Developer</span><br>
+    <span>Quality Engineering Enthusiast | Azure DevOps Specialist</span>
+  </h2>
 </div>
 
-<p align="center">
-  <a href="https://linkedin.com/in/blancasjc">
+
+<div align="center">
+  <a href="https://linkedin.com/in/blancasjc" target="_blank">
     <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=flat-square&logo=linkedin&logoColor=white" />
   </a>
   &nbsp;
-  <a href="mailto:jorge_blancas_cruz@outlook.com">
+  <a href="mailto:jorge_blancas_cruz@outlook.com" target="_blank">
     <img alt="Email" src="https://img.shields.io/badge/Email-%23D14836.svg?&style=flat-square&logo=gmail&logoColor=white" />
   </a>
   &nbsp;
-  <a href="https://blancasj.github.io/portfolio/">
+  <a href="https://blancasj.github.io/portfolio/" target="_blank">
     <img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-%230A0A0A.svg?&style=flat-square&logo=dev.to&logoColor=white" />
   </a>
-  &nbsp;
-  <a href="https://github.com/BlancasJ">
-    <img alt="GitHub" src="https://img.shields.io/badge/GitHub-%23100000.svg?&style=flat-square&logo=github&logoColor=white" />
-  </a>
-</p>
+</div>
 
 ## 💫 About Me
 
 Engineering at its core is about adaptation and growth. My journey from embedded systems to cloud architecture has equipped me with a versatile technical foundation that consistently delivers measurable results across diverse environments.
 
-- 🚀 **Currently:** Software Engineer II at The Ksquare Group (Client: De Lage Landen)
-- 🛠️ **Specialization:** Cloud architecture, API development, and quality engineering
-- 🔄 **Key Focus:** Creating scalable solutions with measurable business outcomes
-- 🌱 **Growth Area:** Expanding expertise in cloud-native security patterns and microservice architecture
-- 🎓 **Education:** Bachelor of Engineering in Computational Embedded Systems
-
-## 🚀 Recent Achievements
+### 🚀 Recent Achievements
 
 - 🏆 **Testing Optimization:** Reduced E2E test runtime from 46 minutes to 12 minutes (74% improvement)
 - 🔒 **Security Enhancement:** Eliminated unauthorized access vulnerability across 20+ microservices
