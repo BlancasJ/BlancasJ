@@ -90,65 +90,65 @@ Engineering at its core is about adaptation and growth. My journey from embedded
   <tr valign="top">
     <td>
       <strong>2016</strong><br>
-      📚 Started Bachelor's<br>
-      🖥️ Scientific Computing Encounter<br><br>
+      📚 Started Bachelor's in Computational Embedded Systems (Sep)<br>
+      🖥️ Attended First Scientific Computing Encounter (Dec)<br><br>
       <strong>2017</strong><br>
-      📱 Android School with Kotlin
+      📱 Participated in Android School with Kotlin (Aug)
     </td>
     <td>
       <strong>2018</strong><br>
-      🌊 IFTP Hackathon<br>
-      🔊 HackSureste<br>
-      🌱 Autonomous Orchard<br>
-      🔬 Research with Texas A&M<br>
-      🧠 Mexican Congress on AI<br>
-      🐾 Animal Sanctuary<br>
-      🤖 Robotics Workshop<br><br>
+      🌊 Participated in Hackathon: Invent For The Planet (Feb)<br>
+      🔊 Participated in Hackathon: HackSureste (Mar)<br>
+      🌱 1st Internship: Autonomous Orchard (Apr)<br>
+      🔬 Completed Introduction to Research with Texas A&M (May)<br>
+      🧠 Volunteered at Mexican Congress on AI (Jun)<br>
+      🐾 Volunteered at Animal Sanctuary (Jul)<br>
+      🤖 Volunteered at Workshop on Algorithmic Foundations of Robotics (Dec)<br><br>
       <strong>2019</strong><br>
-      ⚡ Electronics Workshop<br>
-      🥤 HackSureste IoT<br>
-      🔌 BioFractal Internship<br>
-      🏆 Autotronics Challenge<br>
-      👨‍🏫 Programming Workshop<br>
-      🏠 Smart Room IoT<br>
-      🏭 Multi-PLC System<br>
-      📡 IoT Workshop<br>
-      🗣️ English B2 CERF
+      ⚡ Volunteered as Electronics Workshop Instructor (Feb)<br>
+      🥤 Participated in Hackathon: HackSureste IoT Beverage Tracking (Mar)<br>
+      🔌 2nd Internship at BioFractal (Apr-May)<br>
+      🏆 Won 2nd Place at Autotronics Maker Challenge (May)<br>
+      👨‍🏫 Volunteered as Programming Workshop Instructor (Jun)<br>
+      🏠 Developed Smart Room IoT System (Sep-Dec)<br>
+      🏭 Built Industrial Automation with Multi-PLC System (Sep-Dec)<br>
+      📡 Volunteered as IoT Workshop Instructor (Nov)<br>
+      🗣️ Certified in English B2 CERF (Dec)
     </td>
     <td>
       <strong>2020</strong><br>
-      👁️ Object Recognition System<br>
-      🎓 Bachelor's Graduation<br><br>
+      👁️ 3rd Internship: Real-Time Object Recognition System (Jan-Apr)<br>
+      🎓 Graduated with Bachelor's in Embedded Systems (Apr)<br><br>
       <strong>2021</strong><br>
-      💻 JavaScript Associate<br>
-      🚀 Software Engineer<br>
-      🧑‍💼 Employee Portal
+      💻 JavaScript Associate Engineer at Ksquare University (Feb-Aug)<br>
+      🚀 Promoted to Software Engineer at The Ksquare Group (Aug)<br>
+      🧑‍💼 Developed Employee Portal for 500+ users
     </td>
     <td>
       <strong>2022</strong><br>
-      ☁️ Salesforce Developer<br>
-      ⚡ Software Engineer II<br>
-      🔄 NodeJS Developer<br>
-      ⚛️ React Expert<br>
-      📝 Notion 101<br><br>
+      ☁️ Certified as Salesforce JavaScript Developer I (Feb)<br>
+      ⚡ Promoted to Software Engineer II at The Ksquare Group (Jun)<br>
+      🔄 Completed NodeJS Developer course (Jul)<br>
+      ⚛️ Completed React: De cero a experto (Dec)<br>
+      📝 Completed Notion 101 (Dec)<br><br>
       <strong>2023</strong><br>
-      🧪 Testing & Code Quality<br>
-      👁️ Code Reviews<br>
-      ✨ Clean Coding<br>
-      🔷 TypeScript Training<br>
-      🔒 Security Certifications<br>
-      🧩 Microservices Patterns
+      🧪 Completed Node.js: Testing and Code Quality (Mar)<br>
+      👁️ Completed Programming Foundations: Code Reviews (Jul)<br>
+      ✨ Completed Agile Software Development: Clean Coding (Jul)<br>
+      🔷 Completed TypeScript Essential Training (Aug)<br>
+      🔒 Completed several security certifications (Nov)<br>
+      🧩 Certified in Microservices Design Patterns (Dec)
     </td>
     <td>
       <strong>2024</strong><br>
-      ♿ Web Accessibility<br>
-      🤝 Teamwork & Collaboration<br>
-      ☁️ AWS Cloud Practitioner<br>
-      🔄 AZ-400 Certification<br><br>
+      ♿ Certified in Web Accessibility (Mar)<br>
+      🤝 Completed Teamwork & Collaboration (Jul)<br>
+      ☁️ Completed AWS Cloud Practitioner Essentials (Aug)<br>
+      🔄 Certified in AZ-400: Azure DevOps & GitHub Actions (Aug)<br><br>
       <strong>2025</strong><br>
-      🗣️ SmallTalk English Test<br>
-      🌐 Financial Services Project<br>
-      🔒 Cloud-Native Security
+      🗣️ Completed SmallTalk English Speaking Level Test (Feb)<br>
+      🌐 Leading Financial Services Modernization Project<br>
+      🔒 Implementing Cloud-Native Security Patterns
     </td>
   </tr>
 </table>
