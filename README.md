@@ -2,17 +2,25 @@
 
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=28&pause=1000&color=0366D6&center=true&vCenter=true&random=false&width=600&lines=Software+Engineer+II;Full+Stack+Developer;Quality+Engineering+Enthusiast;Azure+DevOps+Specialist" alt="Typing SVG" />
-
-  <a href="https://linkedin.com/in/blancasjc" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="mailto:jorge_blancas_cruz@outlook.com" target="_blank">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-  <a href="https://blancasj.github.io/portfolio/" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" alt="Portfolio"/>
-  </a>
 </div>
+
+<p align="center">
+  <a href="https://linkedin.com/in/blancasjc">
+    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=flat-square&logo=linkedin&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="mailto:jorge_blancas_cruz@outlook.com">
+    <img alt="Email" src="https://img.shields.io/badge/Email-%23D14836.svg?&style=flat-square&logo=gmail&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://blancasj.github.io/portfolio/">
+    <img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-%230A0A0A.svg?&style=flat-square&logo=dev.to&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/BlancasJ">
+    <img alt="GitHub" src="https://img.shields.io/badge/GitHub-%23100000.svg?&style=flat-square&logo=github&logoColor=white" />
+  </a>
+</p>
 
 ## 💫 About Me
 
@@ -30,157 +38,6 @@ Engineering at its core is about adaptation and growth. My journey from embedded
 - 🔒 **Security Enhancement:** Eliminated unauthorized access vulnerability across 20+ microservices
 - 💾 **Azure Expertise:** Resolved critical Cosmos DB data corruption with zero downtime
 - 👨‍🏫 **Mentorship:** Guided 10+ developers in testing best practices & quality engineering
-
-## 🚀 Professional Journey
-
-<div class="timeline">
-  <div class="timeline-container">
-    <div class="year">2016</div>
-    <ul>
-      <li>📚 Started Bachelor's in Computational Embedded Systems (Sep)</li>
-      <li>🖥️ Attended First Scientific Computing Encounter (Dec)</li>
-    </ul>
-  </div>
-  <div class="timeline-container">
-    <div class="year">2017</div>
-    <ul>
-      <li>📱 Participated in Android School with Kotlin (Aug)</li>
-    </ul>
-  </div>
-  <div class="timeline-container">
-    <div class="year">2018</div>
-    <ul>
-      <li>🌊 Participated in Hackathon: Invent For The Planet (Feb)</li>
-      <li>🔊 Participated in Hackathon: HackSureste (Mar)</li>
-      <li>🌱 1st Internship: Autonomous Orchard (Apr)</li>
-      <li>🔬 Completed Introduction to Research with Texas A&M (May)</li>
-      <li>🧠 Volunteered at Mexican Congress on AI (Jun)</li>
-      <li>🐾 Volunteered at Animal Sanctuary (Jul)</li>
-      <li>🤖 Volunteered at Workshop on Algorithmic Foundations of Robotics (Dec)</li>
-    </ul>
-  </div>
-  <div class="timeline-container">
-    <div class="year">2019</div>
-    <ul>
-      <li>⚡ Volunteered as Electronics Workshop Instructor (Feb)</li>
-      <li>🥤 Participated in Hackathon: HackSureste IoT Beverage Tracking (Mar)</li>
-      <li>🔌 2nd Internship at BioFractal (Apr-May)</li>
-      <li>🏆 Won 2nd Place at Autotronics Maker Challenge (May)</li>
-      <li>👨‍🏫 Volunteered as Programming Workshop Instructor (Jun)</li>
-      <li>🏠 Developed Smart Room IoT System (Sep-Dec)</li>
-      <li>🏭 Built Industrial Automation with Multi-PLC System (Sep-Dec)</li>
-      <li>📡 Volunteered as IoT Workshop Instructor (Nov)</li>
-      <li>🗣️ Certified in English B2 CERF (Dec)</li>
-    </ul>
-  </div>
-  <div class="timeline-container">
-    <div class="year">2020</div>
-    <ul>
-      <li>👁️ 3rd Internship: Real-Time Object Recognition System (Jan-Apr)</li>
-      <li>🎓 Graduated with Bachelor's in Embedded Systems (Apr)</li>
-    </ul>
-  </div>
-  <div class="timeline-container">
-    <div class="year">2021</div>
-    <ul>
-      <li>💻 JavaScript Associate Engineer at Ksquare University (Feb-Aug)</li>
-      <li>🚀 Promoted to Software Engineer at The Ksquare Group (Aug)</li>
-      <li>🧑‍💼 Developed Employee Portal for 500+ users</li>
-    </ul>
-  </div>
-  <div class="timeline-container">
-    <div class="year">2022</div>
-    <ul>
-      <li>☁️ Certified as Salesforce JavaScript Developer I (Feb)</li>
-      <li>⚡ Promoted to Software Engineer II at The Ksquare Group (Jun)</li>
-      <li>🔄 Completed NodeJS Developer course (Jul)</li>
-      <li>⚛️ Completed React: De cero a experto (Dec)</li>
-      <li>📝 Completed Notion 101 (Dec)</li>
-    </ul>
-  </div>
-  <div class="timeline-container">
-    <div class="year">2023</div>
-    <ul>
-      <li>🧪 Completed Node.js: Testing and Code Quality (Mar)</li>
-      <li>👁️ Completed Programming Foundations: Code Reviews (Jul)</li>
-      <li>✨ Completed Agile Software Development: Clean Coding (Jul)</li>
-      <li>🔷 Completed TypeScript Essential Training (Aug)</li>
-      <li>🔒 Completed several security certifications (Nov)</li>
-      <li>🧩 Certified in Microservices Design Patterns (Dec)</li>
-    </ul>
-  </div>
-  <div class="timeline-container">
-    <div class="year">2024</div>
-    <ul>
-      <li>♿ Certified in Web Accessibility (Mar)</li>
-      <li>🤝 Completed Teamwork & Collaboration (Jul)</li>
-      <li>☁️ Completed AWS Cloud Practitioner Essentials (Aug)</li>
-      <li>🔄 Certified in AZ-400: Azure DevOps & GitHub Actions (Aug)</li>
-    </ul>
-  </div>
-  <div class="timeline-container">
-    <div class="year">2025</div>
-    <ul>
-      <li>🗣️ Completed SmallTalk English Speaking Level Test (Feb)</li>
-      <li>🌐 Leading Financial Services Modernization Project</li>
-      <li>🔒 Implementing Cloud-Native Security Patterns</li>
-    </ul>
-  </div>
-</div>
-
-<style>
-/* Timeline styling - for GitHub Markdown */
-.timeline {
-  display: flex;
-  overflow-x: auto;
-  margin: 20px 0;
-  padding: 20px 0;
-  scroll-snap-type: x mandatory;
-}
-
-.timeline-container {
-  flex: 0 0 250px;
-  margin-right: 20px;
-  padding: 15px;
-  border-left: 3px solid #0366D6;
-  border-radius: 5px;
-  background: rgba(3, 102, 214, 0.1);
-  position: relative;
-  scroll-snap-align: start;
-}
-
-.year {
-  font-weight: bold;
-  font-size: 1.2rem;
-  color: #0366D6;
-  margin-bottom: 10px;
-  position: sticky;
-  top: 0;
-}
-
-.timeline ul {
-  list-style-type: none;
-  padding-left: 5px;
-  margin: 0;
-}
-
-.timeline li {
-  margin-bottom: 8px;
-  line-height: 1.4;
-}
-
-/* Add a dot to the timeline */
-.timeline-container::before {
-  content: "";
-  position: absolute;
-  left: -9px;
-  top: 20px;
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  background: #0366D6;
-}
-</style>
 
 ## 💻 Tech Stack
 
@@ -224,13 +81,84 @@ Engineering at its core is about adaptation and growth. My journey from embedded
   <img alt="github-snake" src="https://github.com/BlancasJ/BlancasJ/blob/output/github-snake.svg" />
 </picture>
 
-## 📫 Connect With Me
+## 🚀 Professional Journey
 
-I'm always open to interesting conversations and collaboration opportunities. Feel free to reach out!
-
-- 💼 [LinkedIn](https://linkedin.com/in/blancasjc)
-- 📧 [Email](mailto:jorge_blancas_cruz@outlook.com)
-- 🌐 [Portfolio](https://blancasj.github.io/portfolio/)
+<details open>
+<summary><strong>Timeline (Click to expand/collapse)</strong></summary>
+<table>
+  <tr>
+    <th>2016-2017</th>
+    <th>2018-2019</th>
+    <th>2020-2021</th>
+    <th>2022-2023</th>
+    <th>2024-2025</th>
+  </tr>
+  <tr valign="top">
+    <td>
+      <strong>2016</strong><br>
+      📚 Started Bachelor's<br>
+      🖥️ Scientific Computing Encounter<br><br>
+      <strong>2017</strong><br>
+      📱 Android School with Kotlin
+    </td>
+    <td>
+      <strong>2018</strong><br>
+      🌊 IFTP Hackathon<br>
+      🔊 HackSureste<br>
+      🌱 Autonomous Orchard<br>
+      🔬 Research with Texas A&M<br>
+      🧠 Mexican Congress on AI<br>
+      🐾 Animal Sanctuary<br>
+      🤖 Robotics Workshop<br><br>
+      <strong>2019</strong><br>
+      ⚡ Electronics Workshop<br>
+      🥤 HackSureste IoT<br>
+      🔌 BioFractal Internship<br>
+      🏆 Autotronics Challenge<br>
+      👨‍🏫 Programming Workshop<br>
+      🏠 Smart Room IoT<br>
+      🏭 Multi-PLC System<br>
+      📡 IoT Workshop<br>
+      🗣️ English B2 CERF
+    </td>
+    <td>
+      <strong>2020</strong><br>
+      👁️ Object Recognition System<br>
+      🎓 Bachelor's Graduation<br><br>
+      <strong>2021</strong><br>
+      💻 JavaScript Associate<br>
+      🚀 Software Engineer<br>
+      🧑‍💼 Employee Portal
+    </td>
+    <td>
+      <strong>2022</strong><br>
+      ☁️ Salesforce Developer<br>
+      ⚡ Software Engineer II<br>
+      🔄 NodeJS Developer<br>
+      ⚛️ React Expert<br>
+      📝 Notion 101<br><br>
+      <strong>2023</strong><br>
+      🧪 Testing & Code Quality<br>
+      👁️ Code Reviews<br>
+      ✨ Clean Coding<br>
+      🔷 TypeScript Training<br>
+      🔒 Security Certifications<br>
+      🧩 Microservices Patterns
+    </td>
+    <td>
+      <strong>2024</strong><br>
+      ♿ Web Accessibility<br>
+      🤝 Teamwork & Collaboration<br>
+      ☁️ AWS Cloud Practitioner<br>
+      🔄 AZ-400 Certification<br><br>
+      <strong>2025</strong><br>
+      🗣️ SmallTalk English Test<br>
+      🌐 Financial Services Project<br>
+      🔒 Cloud-Native Security
+    </td>
+  </tr>
+</table>
+</details>
 
 ---
 
