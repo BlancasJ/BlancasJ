@@ -1,0 +1,369 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1050 520" font-family="'Consolas', 'Courier New', monospace">
+  <defs>
+    <clipPath id="osc-screen"><rect x="22" y="28" width="386" height="155"/></clipPath>
+    <linearGradient id="cv" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#bbb" stop-opacity="0"/>
+      <stop offset="40%" stop-color="#1a7f37" stop-opacity="0.5"/>
+      <stop offset="60%" stop-color="#1a7f37" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#bbb" stop-opacity="0"/>
+      <animate attributeName="y1" values="-100%;100%" dur="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="0%;200%" dur="1.5s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="tp" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d0e8d0" stop-opacity="0"/>
+      <stop offset="40%" stop-color="#8a6000" stop-opacity="0.6"/>
+      <stop offset="60%" stop-color="#8a6000" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#d0e8d0" stop-opacity="0"/>
+      <animate attributeName="x1" values="-100%;100%" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0%;200%" dur="3s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="csig" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#bbb" stop-opacity="0"/>
+      <stop offset="40%" stop-color="#0969da" stop-opacity="0.5"/>
+      <stop offset="60%" stop-color="#0969da" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#bbb" stop-opacity="0"/>
+      <animate attributeName="x1" values="-100%;100%" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0%;200%" dur="2s" repeatCount="indefinite"/>
+    </linearGradient>
+    <pattern id="pd" width="6" height="6" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="0.25" fill="#b0c8b0"/>
+    </pattern>
+  </defs>
+
+  <rect width="1050" height="520" rx="6" fill="#ffffff"/>
+
+  <!-- ════════════ OSCILLOSCOPE ════════════ -->
+
+  <rect x="15" y="10" width="400" height="225" rx="6" fill="#e8e8f0" stroke="#aaa" stroke-width="1"/>
+  <text x="25" y="24" fill="#57606a" font-size="8" font-weight="bold">DSO-JBC  200MHz</text>
+  <circle cx="400" cy="20" r="3" fill="#1a7f37"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.5s" repeatCount="indefinite"/></circle>
+
+  <!-- Screen (taller for CH2 clearance) -->
+  <rect x="22" y="28" width="386" height="155" rx="3" fill="#e8f5e8"/>
+
+  <!-- Grid (taller screen: y=28 to y=183) -->
+  <line x1="60" y1="28" x2="60" y2="183" stroke="#c0dcc0" stroke-width="0.3"/>
+  <line x1="98" y1="28" x2="98" y2="183" stroke="#c0dcc0" stroke-width="0.3"/>
+  <line x1="136" y1="28" x2="136" y2="183" stroke="#c0dcc0" stroke-width="0.3"/>
+  <line x1="174" y1="28" x2="174" y2="183" stroke="#c0dcc0" stroke-width="0.3"/>
+  <line x1="215" y1="28" x2="215" y2="183" stroke="#a0c0a0" stroke-width="0.5"/>
+  <line x1="253" y1="28" x2="253" y2="183" stroke="#c0dcc0" stroke-width="0.3"/>
+  <line x1="291" y1="28" x2="291" y2="183" stroke="#c0dcc0" stroke-width="0.3"/>
+  <line x1="329" y1="28" x2="329" y2="183" stroke="#c0dcc0" stroke-width="0.3"/>
+  <line x1="367" y1="28" x2="367" y2="183" stroke="#c0dcc0" stroke-width="0.3"/>
+  <line x1="22" y1="59" x2="408" y2="59" stroke="#c0dcc0" stroke-width="0.15"/>
+  <line x1="22" y1="90" x2="408" y2="90" stroke="#c0dcc0" stroke-width="0.3"/>
+  <line x1="22" y1="105" x2="408" y2="105" stroke="#a0c0a0" stroke-width="0.5"/>
+  <line x1="22" y1="120" x2="408" y2="120" stroke="#c0dcc0" stroke-width="0.3"/>
+  <line x1="22" y1="151" x2="408" y2="151" stroke="#c0dcc0" stroke-width="0.15"/>
+
+  <!-- Waveforms (CH1 at y=80, CH2 at y=155 — well separated) -->
+  <g clip-path="url(#osc-screen)">
+    <g transform="translate(22,80)"><path d="M0.0,0.0 L1.3,4.1 L2.7,8.0 L4.0,11.3 L5.3,13.9 L6.7,15.5 L8.0,16.0 L9.3,15.5 L10.7,13.9 L12.0,11.3 L13.3,8.0 L14.7,4.1 L16.0,0.0 L17.3,-4.1 L18.7,-8.0 L20.0,-11.3 L21.3,-13.9 L22.7,-15.5 L24.0,-16.0 L25.3,-15.5 L26.7,-13.9 L28.0,-11.3 L29.3,-8.0 L30.7,-4.1 L32.0,-0.0 L33.3,4.1 L34.7,8.0 L36.0,11.3 L37.3,13.9 L38.7,15.5 L40.0,16.0 L41.3,15.5 L42.7,13.9 L44.0,11.3 L45.3,8.0 L46.7,4.1 L48.0,0.0 L49.3,-4.1 L50.7,-8.0 L52.0,-11.3 L53.3,-13.9 L54.7,-15.5 L56.0,-16.0 L57.3,-15.5 L58.7,-13.9 L60.0,-11.3 L61.3,-8.0 L62.7,-4.1 L64.0,-0.0 L65.3,4.1 L66.7,8.0 L68.0,11.3 L69.3,13.9 L70.7,15.5 L72.0,16.0 L73.3,15.5 L74.7,13.9 L76.0,11.3 L77.3,8.0 L78.7,4.1 L80.0,0.0 L81.3,-4.1 L82.7,-8.0 L84.0,-11.3 L85.3,-13.9 L86.7,-15.5 L88.0,-16.0 L89.3,-15.5 L90.7,-13.9 L92.0,-11.3 L93.3,-8.0 L94.7,-4.1 L96.0,-0.0 L97.3,4.1 L98.7,8.0 L100.0,11.3 L101.3,13.9 L102.7,15.5 L104.0,16.0 L105.3,15.5 L106.7,13.9 L108.0,11.3 L109.3,8.0 L110.7,4.1 L112.0,0.0 L113.3,-4.1 L114.7,-8.0 L116.0,-11.3 L117.3,-13.9 L118.7,-15.5 L120.0,-16.0 L121.3,-15.5 L122.7,-13.9 L124.0,-11.3 L125.3,-8.0 L126.7,-4.1 L128.0,-0.0 L129.3,4.1 L130.7,8.0 L132.0,11.3 L133.3,13.9 L134.7,15.5 L136.0,16.0 L137.3,15.5 L138.7,13.9 L140.0,11.3 L141.3,8.0 L142.7,4.1 L144.0,0.0 L145.3,-4.1 L146.7,-8.0 L148.0,-11.3 L149.3,-13.9 L150.7,-15.5 L152.0,-16.0 L153.3,-15.5 L154.7,-13.9 L156.0,-11.3 L157.3,-8.0 L158.7,-4.1 L160.0,-0.0 L161.3,4.1 L162.7,8.0 L164.0,11.3 L165.3,13.9 L166.7,15.5 L168.0,16.0 L169.3,15.5 L170.7,13.9 L172.0,11.3 L173.3,8.0 L174.7,4.1 L176.0,-0.0 L177.3,-4.1 L178.7,-8.0 L180.0,-11.3 L181.3,-13.9 L182.7,-15.5 L184.0,-16.0 L185.3,-15.5 L186.7,-13.9 L188.0,-11.3 L189.3,-8.0 L190.7,-4.1 L192.0,-0.0 L193.3,4.1 L194.7,8.0 L196.0,11.3 L197.3,13.9 L198.7,15.5 L200.0,16.0 L201.3,15.5 L202.7,13.9 L204.0,11.3 L205.3,8.0 L206.7,4.1 L208.0,0.0 L209.3,-4.1 L210.7,-8.0 L212.0,-11.3 L213.3,-13.9 L214.7,-15.5 L216.0,-16.0 L217.3,-15.5 L218.7,-13.9 L220.0,-11.3 L221.3,-8.0 L222.7,-4.1 L224.0,-0.0 L225.3,4.1 L226.7,8.0 L228.0,11.3 L229.3,13.9 L230.7,15.5 L232.0,16.0 L233.3,15.5 L234.7,13.9 L236.0,11.3 L237.3,8.0 L238.7,4.1 L240.0,-0.0 L241.3,-4.1 L242.7,-8.0 L244.0,-11.3 L245.3,-13.9 L246.7,-15.5 L248.0,-16.0 L249.3,-15.5 L250.7,-13.9 L252.0,-11.3 L253.3,-8.0 L254.7,-4.1 L256.0,-0.0 L257.3,4.1 L258.7,8.0 L260.0,11.3 L261.3,13.9 L262.7,15.5 L264.0,16.0 L265.3,15.5 L266.7,13.9 L268.0,11.3 L269.3,8.0 L270.7,4.1 L272.0,0.0 L273.3,-4.1 L274.7,-8.0 L276.0,-11.3 L277.3,-13.9 L278.7,-15.5 L280.0,-16.0 L281.3,-15.5 L282.7,-13.9 L284.0,-11.3 L285.3,-8.0 L286.7,-4.1 L288.0,-0.0 L289.3,4.1 L290.7,8.0 L292.0,11.3 L293.3,13.9 L294.7,15.5 L296.0,16.0 L297.3,15.5 L298.7,13.9 L300.0,11.3 L301.3,8.0 L302.7,4.1 L304.0,0.0 L305.3,-4.1 L306.7,-8.0 L308.0,-11.3 L309.3,-13.9 L310.7,-15.5 L312.0,-16.0 L313.3,-15.5 L314.7,-13.9 L316.0,-11.3 L317.3,-8.0 L318.7,-4.1 L320.0,-0.0 L321.3,4.1 L322.7,8.0 L324.0,11.3 L325.3,13.9 L326.7,15.5 L328.0,16.0 L329.3,15.5 L330.7,13.9 L332.0,11.3 L333.3,8.0 L334.7,4.1 L336.0,-0.0 L337.3,-4.1 L338.7,-8.0 L340.0,-11.3 L341.3,-13.9 L342.7,-15.5 L344.0,-16.0 L345.3,-15.5 L346.7,-13.9 L348.0,-11.3 L349.3,-8.0 L350.7,-4.1 L352.0,0.0 L353.3,4.1 L354.7,8.0 L356.0,11.3 L357.3,13.9 L358.7,15.5 L360.0,16.0 L361.3,15.5 L362.7,13.9 L364.0,11.3 L365.3,8.0 L366.7,4.1 L368.0,0.0 L369.3,-4.1 L370.7,-8.0 L372.0,-11.3 L373.3,-13.9 L374.7,-15.5 L376.0,-16.0 L377.3,-15.5 L378.7,-13.9 L380.0,-11.3 L381.3,-8.0 L382.7,-4.1 L384.0,-0.0 L385.3,4.1 L386.7,8.0 L388.0,11.3 L389.3,13.9 L390.7,15.5 L392.0,16.0 L393.3,15.5 L394.7,13.9 L396.0,11.3 L397.3,8.0 L398.7,4.1 L400.0,-0.0 L401.3,-4.1 L402.7,-8.0 L404.0,-11.3 L405.3,-13.9 L406.7,-15.5 L408.0,-16.0 L409.3,-15.5 L410.7,-13.9 L412.0,-11.3 L413.3,-8.0 L414.7,-4.1 L416.0,-0.0 L417.3,4.1 L418.7,8.0 L420.0,11.3 L421.3,13.9 L422.7,15.5 L424.0,16.0 L425.3,15.5 L426.7,13.9 L428.0,11.3 L429.3,8.0 L430.7,4.1 L432.0,0.0 L433.3,-4.1 L434.7,-8.0 L436.0,-11.3 L437.3,-13.9 L438.7,-15.5 L440.0,-16.0 L441.3,-15.5 L442.7,-13.9 L444.0,-11.3 L445.3,-8.0 L446.7,-4.1 L448.0,-0.0 L449.3,4.1 L450.7,8.0 L452.0,11.3 L453.3,13.9 L454.7,15.5 L456.0,16.0 L457.3,15.5 L458.7,13.9 L460.0,11.3 L461.3,8.0 L462.7,4.1 L464.0,0.0 L465.3,-4.1 L466.7,-8.0 L468.0,-11.3 L469.3,-13.9 L470.7,-15.5 L472.0,-16.0 L473.3,-15.5 L474.7,-13.9 L476.0,-11.3 L477.3,-8.0 L478.7,-4.1 L480.0,0.0 L481.3,4.1 L482.7,8.0 L484.0,11.3 L485.3,13.9 L486.7,15.5 L488.0,16.0 L489.3,15.5 L490.7,13.9 L492.0,11.3 L493.3,8.0 L494.7,4.1 L496.0,0.0 L497.3,-4.1 L498.7,-8.0 L500.0,-11.3 L501.3,-13.9 L502.7,-15.5 L504.0,-16.0 L505.3,-15.5 L506.7,-13.9 L508.0,-11.3 L509.3,-8.0 L510.7,-4.1 L512.0,-0.0" stroke="#1a7f37" stroke-width="1.8" fill="none" opacity="0.85"><animateTransform attributeName="transform" type="translate" from="0 0" to="-64 0" dur="2s" repeatCount="indefinite"/></path></g>
+    <g transform="translate(22,145)"><path d="M0,0 L0,-10 L22.0,-10 L22.0,10 L44,10 L44,-10 L66.0,-10 L66.0,10 L88,10 L88,-10 L110.0,-10 L110.0,10 L132,10 L132,-10 L154.0,-10 L154.0,10 L176,10 L176,-10 L198.0,-10 L198.0,10 L220,10 L220,-10 L242.0,-10 L242.0,10 L264,10 L264,-10 L286.0,-10 L286.0,10 L308,10 L308,-10 L330.0,-10 L330.0,10 L352,10 L352,-10 L374.0,-10 L374.0,10 L396,10 L396,-10 L418.0,-10 L418.0,10 L440,10 L440,-10 L462.0,-10 L462.0,10 L484,10 L484,-10 L506.0,-10 L506.0,10 L528,10" stroke="#0969da" stroke-width="1.2" fill="none" opacity="0.65"><animateTransform attributeName="transform" type="translate" from="0 0" to="-88 0" dur="3s" repeatCount="indefinite"/></path></g>
+  </g>
+
+  <!-- HUD -->
+  <rect x="28" y="32" width="6" height="6" rx="1" fill="#1a7f37" opacity="0.8"/>
+  <text x="38" y="38" fill="#1a7f37" font-size="7">CH1 5.00V/div AC</text>
+  <rect x="28" y="42" width="6" height="6" rx="1" fill="#0969da" opacity="0.8"/>
+  <text x="38" y="48" fill="#0969da" font-size="7">CH2 3.30V/div DC</text>
+  <text x="345" y="38" fill="#9a6700" font-size="7">TRIG'D</text>
+  <polygon points="407,85 402,82 402,88" fill="#9a6700"/>
+  <rect x="25" y="155" width="88" height="22" rx="1" fill="#e8f5e8" opacity="0.85" stroke="#c0dcc0" stroke-width="0.3"/>
+  <text x="30" y="165" fill="#9a6700" font-size="6">Vpp: </text><text x="52" y="165" fill="#1f2328" font-size="6">9.80V</text>
+  <text x="30" y="173" fill="#9a6700" font-size="6">Freq: </text><text x="56" y="173" fill="#1f2328" font-size="6">1.2kHz</text>
+  <text x="165" y="179" fill="#57606a" font-size="6.5">500us/div</text>
+  <text x="285" y="179" fill="#57606a" font-size="6.5">1GSa/s</text>
+  <text x="385" y="179" fill="#9a6700" font-size="7">AUTO</text>
+
+  <!-- Controls -->
+  <rect x="22" y="189" width="386" height="40" rx="3" fill="#e8e8f0" stroke="#aaa" stroke-width="0.5"/>
+  <circle cx="50" cy="209" r="11" fill="#d0d0d8" stroke="#aaa" stroke-width="1.2"/>
+  <line x1="50" y1="200" x2="50" y2="203" stroke="#57606a" stroke-width="1"/>
+  <circle cx="100" cy="209" r="11" fill="#d0d0d8" stroke="#aaa" stroke-width="1.2"/>
+  <line x1="96" y1="200" x2="97" y2="203" stroke="#57606a" stroke-width="1"/>
+  <circle cx="148" cy="209" r="9" fill="#d0d0d8" stroke="#aaa" stroke-width="1.2"/>
+  <rect x="190" y="203" width="24" height="11" rx="2" fill="#d0d0d8" stroke="#1a7f37" stroke-width="0.6"/>
+  <text x="202" y="212" fill="#1a7f37" font-size="6" text-anchor="middle">RUN</text>
+  <rect x="220" y="203" width="24" height="11" rx="2" fill="#d0d0d8" stroke="#ff5f57" stroke-width="0.6"/>
+  <text x="232" y="212" fill="#ff5f57" font-size="6" text-anchor="middle">STOP</text>
+  <circle cx="285" cy="209" r="13" fill="#d0d0d8" stroke="#aaa" stroke-width="1"/>
+  <circle cx="285" cy="209" r="4.5" fill="#e8e8f0" stroke="#aaa" stroke-width="0.6"/>
+  <circle cx="345" cy="209" r="7" fill="#d0d0d8" stroke="#8a6000" stroke-width="1.2"/>
+  <circle cx="345" cy="209" r="2" fill="#8a6000"/>
+  <text x="345" y="221" fill="#8a6000" font-size="5" text-anchor="middle">CH1</text>
+  <circle cx="380" cy="209" r="7" fill="#d0d0d8" stroke="#0969da" stroke-width="1.2"/>
+  <circle cx="380" cy="209" r="2" fill="#0969da"/>
+  <text x="380" y="221" fill="#0969da" font-size="5" text-anchor="middle">CH2</text>
+
+  <!-- ════════════ CABLE (scope → PCB) ════════════ -->
+  <path d="M 215,235 C 215,250 160,253 160,268" stroke="#bbb" stroke-width="1.5" fill="none"/>
+  <path d="M 215,235 C 215,250 160,253 160,268" stroke="url(#cv)" stroke-width="1.5" fill="none"/>
+
+  <!-- ════════════ PCB BOARD ════════════ -->
+  <g transform="translate(0,28)">
+
+  <rect x="15" y="245" width="400" height="155" rx="3" fill="#d0e8d0" stroke="#6a9a6a" stroke-width="1.2"/>
+  <rect x="15" y="245" width="400" height="155" rx="3" fill="url(#pd)" opacity="0.5"/>
+  <rect x="18" y="380" width="394" height="17" rx="1" fill="#b0c8b0" opacity="0.15"/>
+
+  <!-- Mounting holes -->
+  <circle cx="28" cy="258" r="4" fill="none" stroke="#8a8a8a" stroke-width="1"/><circle cx="28" cy="258" r="1.5" fill="#8a8a8a"/><circle cx="28" cy="258" r="5.5" fill="none" stroke="#b0c8b0" stroke-width="0.3"/>
+  <circle cx="402" cy="258" r="4" fill="none" stroke="#8a8a8a" stroke-width="1"/><circle cx="402" cy="258" r="1.5" fill="#8a8a8a"/><circle cx="402" cy="258" r="5.5" fill="none" stroke="#b0c8b0" stroke-width="0.3"/>
+  <circle cx="28" cy="387" r="4" fill="none" stroke="#8a8a8a" stroke-width="1"/><circle cx="28" cy="387" r="1.5" fill="#8a8a8a"/><circle cx="28" cy="387" r="5.5" fill="none" stroke="#b0c8b0" stroke-width="0.3"/>
+  <circle cx="402" cy="387" r="4" fill="none" stroke="#8a8a8a" stroke-width="1"/><circle cx="402" cy="387" r="1.5" fill="#8a8a8a"/><circle cx="402" cy="387" r="5.5" fill="none" stroke="#b0c8b0" stroke-width="0.3"/>
+
+  <text x="215" y="260" text-anchor="middle" fill="#57606a" font-size="5">JBC-PROFILE-MK5 — FROM CIRCUITS TO CLOUD</text>
+
+  <!-- Power rails + traces -->
+  <text x="20" y="272" fill="#5a8a5a" font-size="3">VCC</text>
+  <line x1="35" y1="273" x2="405" y2="273" stroke="url(#tp)" stroke-width="1"/>
+  <line x1="35" y1="275" x2="405" y2="275" stroke="#b0c8b0" stroke-width="0.3"/>
+  <line x1="35" y1="318" x2="405" y2="318" stroke="url(#tp)" stroke-width="0.6"/>
+  <line x1="35" y1="355" x2="240" y2="355" stroke="url(#tp)" stroke-width="0.6"/>
+  <line x1="35" y1="378" x2="405" y2="378" stroke="#b0c8b0" stroke-width="0.6"/>
+  <text x="20" y="383" fill="#5a8a5a" font-size="3">GND</text>
+  <line x1="100" y1="263" x2="100" y2="395" stroke="#b0c8b0" stroke-width="0.3"/>
+  <line x1="165" y1="263" x2="165" y2="395" stroke="#b0c8b0" stroke-width="0.3"/>
+  <line x1="245" y1="263" x2="245" y2="395" stroke="#b0c8b0" stroke-width="0.3"/>
+  <line x1="330" y1="263" x2="330" y2="395" stroke="#b0c8b0" stroke-width="0.3"/>
+  <!-- IC-to-IC + IC-to-sensor routing -->
+  <line x1="100" y1="300" x2="120" y2="300" stroke="#8a6000" stroke-width="0.5"/>
+  <line x1="70" y1="316" x2="70" y2="330" stroke="#8a6000" stroke-width="0.4"/>
+  <line x1="141" y1="316" x2="141" y2="320" stroke="#8a6000" stroke-width="0.4"/>
+  <line x1="165" y1="308" x2="185" y2="325" stroke="#b0c8b0" stroke-width="0.3"/>
+  <!-- Vias -->
+  <circle cx="100" cy="245" r="2" fill="#d0e8d0" stroke="#8a8a8a" stroke-width="0.6"/><circle cx="100" cy="245" r="0.7" fill="#8a8a8a"/>
+  <circle cx="165" cy="245" r="2" fill="#d0e8d0" stroke="#8a8a8a" stroke-width="0.6"/><circle cx="165" cy="245" r="0.7" fill="#8a8a8a"/>
+  <circle cx="245" cy="318" r="2" fill="#d0e8d0" stroke="#8a8a8a" stroke-width="0.6"/><circle cx="245" cy="318" r="0.7" fill="#8a8a8a"/>
+  <circle cx="330" cy="245" r="2" fill="#d0e8d0" stroke="#8a8a8a" stroke-width="0.6"/><circle cx="330" cy="245" r="0.7" fill="#8a8a8a"/>
+  <circle cx="100" cy="318" r="2" fill="#d0e8d0" stroke="#8a8a8a" stroke-width="0.6"/><circle cx="100" cy="318" r="0.7" fill="#8a8a8a"/>
+  <circle cx="370" cy="318" r="2" fill="#d0e8d0" stroke="#8a8a8a" stroke-width="0.6"/><circle cx="370" cy="318" r="0.7" fill="#8a8a8a"/>
+  <!-- Data bits -->
+  <rect x="35" y="272" width="5" height="2" rx="0.5" fill="#8a6000" opacity="0.5"><animateTransform attributeName="transform" type="translate" from="0 0" to="370 0" dur="3s" repeatCount="indefinite"/></rect>
+  <rect x="35" y="272" width="5" height="2" rx="0.5" fill="#8a6000" opacity="0.25"><animateTransform attributeName="transform" type="translate" from="0 0" to="370 0" dur="3s" begin="1.5s" repeatCount="indefinite"/></rect>
+  <!-- Decoupling caps -->
+  <rect x="55" y="280" width="4" height="3" rx="0.3" fill="#b0c8b0" stroke="#8a8a8a" stroke-width="0.3"/>
+  <rect x="85" y="280" width="4" height="3" rx="0.3" fill="#b0c8b0" stroke="#8a8a8a" stroke-width="0.3"/>
+  <rect x="135" y="280" width="4" height="3" rx="0.3" fill="#b0c8b0" stroke="#8a8a8a" stroke-width="0.3"/>
+  <rect x="150" y="280" width="4" height="3" rx="0.3" fill="#b0c8b0" stroke="#8a8a8a" stroke-width="0.3"/>
+
+  <!-- U1: ESP32 -->
+  <rect x="45" y="286" width="50" height="28" rx="1.5" fill="#e0e0e0" stroke="#bbb" stroke-width="0.8"/>
+  <circle cx="51" cy="291" r="1.2" fill="#8a6000" opacity="0.4"/>
+  <line x1="40" y1="293" x2="45" y2="293" stroke="#8a6000" stroke-width="0.8"/><line x1="40" y1="300" x2="45" y2="300" stroke="#8a6000" stroke-width="0.8"/><line x1="40" y1="307" x2="45" y2="307" stroke="#8a6000" stroke-width="0.8"/>
+  <line x1="95" y1="293" x2="100" y2="293" stroke="#8a6000" stroke-width="0.8"/><line x1="95" y1="300" x2="100" y2="300" stroke="#8a6000" stroke-width="0.8"/><line x1="95" y1="307" x2="100" y2="307" stroke="#8a6000" stroke-width="0.8"/>
+  <line x1="57" y1="281" x2="57" y2="286" stroke="#8a6000" stroke-width="0.8"/><line x1="67" y1="281" x2="67" y2="286" stroke="#8a6000" stroke-width="0.8"/><line x1="77" y1="281" x2="77" y2="286" stroke="#8a6000" stroke-width="0.8"/><line x1="87" y1="281" x2="87" y2="286" stroke="#8a6000" stroke-width="0.8"/>
+  <text x="70" y="304" text-anchor="middle" fill="#57606a" font-size="6.5" font-weight="bold">ESP32</text>
+  <text x="70" y="312" text-anchor="middle" fill="#5a8a5a" font-size="4">U1</text>
+
+  <!-- U2: PIC -->
+  <rect x="125" y="286" width="32" height="28" rx="1" fill="#e0e0e0" stroke="#bbb" stroke-width="0.8"/>
+  <path d="M 137,286 A 4,4 0 0 1 145,286" fill="none" stroke="#bbb" stroke-width="0.8"/>
+  <line x1="120" y1="293" x2="125" y2="293" stroke="#8a6000" stroke-width="0.8"/><line x1="120" y1="300" x2="125" y2="300" stroke="#8a6000" stroke-width="0.8"/><line x1="120" y1="307" x2="125" y2="307" stroke="#8a6000" stroke-width="0.8"/>
+  <line x1="157" y1="293" x2="162" y2="293" stroke="#8a6000" stroke-width="0.8"/><line x1="157" y1="300" x2="162" y2="300" stroke="#8a6000" stroke-width="0.8"/><line x1="157" y1="307" x2="162" y2="307" stroke="#8a6000" stroke-width="0.8"/>
+  <text x="141" y="304" text-anchor="middle" fill="#57606a" font-size="6" font-weight="bold">PIC</text>
+  <text x="141" y="312" text-anchor="middle" fill="#5a8a5a" font-size="4">U2</text>
+
+  <!-- LEDs -->
+  <circle cx="195" cy="290" r="3" fill="#1a7f37" opacity="0.8"><animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/></circle>
+  <circle cx="210" cy="290" r="3" fill="#0969da"><animate attributeName="opacity" values="0.1;1;0.1" dur="1s" repeatCount="indefinite"/></circle>
+  <circle cx="225" cy="290" r="3" fill="#9a6700"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.5s" repeatCount="indefinite"/></circle>
+  <text x="195" y="300" text-anchor="middle" fill="#5a8a5a" font-size="3.5">PWR</text>
+  <text x="210" y="300" text-anchor="middle" fill="#5a8a5a" font-size="3.5">ACT</text>
+  <text x="225" y="300" text-anchor="middle" fill="#5a8a5a" font-size="3.5">STS</text>
+
+  <!-- Sensors -->
+  <rect x="45" y="326" width="24" height="18" rx="1.5" fill="#b0c0f0" stroke="#8099dd" stroke-width="0.6"/>
+  <line x1="51" y1="330" x2="63" y2="330" stroke="#8099dd" stroke-width="0.3" opacity="0.5"/>
+  <line x1="51" y1="333" x2="63" y2="333" stroke="#8099dd" stroke-width="0.3" opacity="0.5"/>
+  <line x1="51" y1="336" x2="63" y2="336" stroke="#8099dd" stroke-width="0.3" opacity="0.5"/>
+  <text x="57" y="342" text-anchor="middle" fill="#6688cc" font-size="3.5">DHT11</text>
+  <text x="57" y="352" text-anchor="middle" fill="#57606a" font-size="4.5">tmp/hum</text>
+  <line x1="52" y1="344" x2="52" y2="349" stroke="#8a6000" stroke-width="0.6"/>
+  <line x1="57" y1="344" x2="57" y2="349" stroke="#8a6000" stroke-width="0.6"/>
+  <line x1="62" y1="344" x2="62" y2="349" stroke="#8a6000" stroke-width="0.6"/>
+
+  <circle cx="108" cy="335" r="10" fill="#333" stroke="#555" stroke-width="0.6"/>
+  <circle cx="108" cy="335" r="6.5" fill="#333" stroke="#555" stroke-width="0.4"/>
+  <line x1="102" y1="329" x2="114" y2="341" stroke="#555" stroke-width="0.3"/><line x1="114" y1="329" x2="102" y2="341" stroke="#555" stroke-width="0.3"/>
+  <line x1="108" y1="328" x2="108" y2="342" stroke="#555" stroke-width="0.3"/><line x1="101" y1="335" x2="115" y2="335" stroke="#555" stroke-width="0.3"/>
+  <text x="108" y="352" text-anchor="middle" fill="#57606a" font-size="4.5">smoke</text>
+  <text x="108" y="323" text-anchor="middle" fill="#5a8a5a" font-size="3.5">MQ-2</text>
+
+  <circle cx="155" cy="335" r="10" fill="#333" stroke="#555" stroke-width="0.6"/>
+  <circle cx="155" cy="335" r="6.5" fill="#333" stroke="#555" stroke-width="0.4"/>
+  <line x1="149" y1="329" x2="161" y2="341" stroke="#555" stroke-width="0.3"/><line x1="161" y1="329" x2="149" y2="341" stroke="#555" stroke-width="0.3"/>
+  <text x="155" y="352" text-anchor="middle" fill="#57606a" font-size="4.5">air qual</text>
+  <text x="155" y="323" text-anchor="middle" fill="#5a8a5a" font-size="3.5">MQ-135</text>
+
+  <!-- TO-92 LM35 -->
+  <path d="M 195,330 A 8,8 0 0 1 211,330" fill="#333" stroke="#555" stroke-width="0.6"/>
+  <line x1="195" y1="330" x2="211" y2="330" stroke="#555" stroke-width="0.6"/>
+  <line x1="199" y1="330" x2="199" y2="336" stroke="#8a6000" stroke-width="0.6"/>
+  <line x1="203" y1="330" x2="203" y2="336" stroke="#8a6000" stroke-width="0.6"/>
+  <line x1="207" y1="330" x2="207" y2="336" stroke="#8a6000" stroke-width="0.6"/>
+  <text x="203" y="326" text-anchor="middle" fill="#5a8a5a" font-size="3.5">LM35</text>
+  <text x="203" y="344" text-anchor="middle" fill="#57606a" font-size="4.5">temp</text>
+
+  <!-- Resistors + diodes + caps -->
+  <rect x="250" y="288" width="12" height="5" rx="0.5" fill="#2a2a2a" stroke="#555" stroke-width="0.4"/>
+  <rect x="250" y="288" width="2.5" height="5" fill="#8a6000"/><rect x="259.5" y="288" width="2.5" height="5" fill="#8a6000"/>
+  <rect x="275" y="288" width="12" height="5" rx="0.5" fill="#2a2a2a" stroke="#555" stroke-width="0.4"/>
+  <rect x="275" y="288" width="2.5" height="5" fill="#8a6000"/><rect x="284.5" y="288" width="2.5" height="5" fill="#8a6000"/>
+  <rect x="300" y="288" width="12" height="5" rx="0.5" fill="#2a2a2a" stroke="#555" stroke-width="0.4"/>
+  <rect x="300" y="288" width="2.5" height="5" fill="#8a6000"/><rect x="309.5" y="288" width="2.5" height="5" fill="#8a6000"/>
+  <rect x="325" y="288" width="12" height="5" rx="0.5" fill="#2a2a2a" stroke="#555" stroke-width="0.4"/>
+  <rect x="325" y="288" width="2.5" height="5" fill="#8a6000"/><rect x="334.5" y="288" width="2.5" height="5" fill="#8a6000"/>
+  <rect x="350" y="288" width="12" height="5" rx="0.5" fill="#2a2a2a" stroke="#555" stroke-width="0.4"/>
+  <rect x="350" y="288" width="2.5" height="5" fill="#8a6000"/><rect x="359.5" y="288" width="2.5" height="5" fill="#8a6000"/>
+
+  <polygon points="255,328 255,338 265,333" fill="none" stroke="#8a6000" stroke-width="0.6"/>
+  <line x1="265" y1="328" x2="265" y2="338" stroke="#8a6000" stroke-width="0.8"/>
+  <polygon points="285,328 285,338 295,333" fill="none" stroke="#8a6000" stroke-width="0.6"/>
+  <line x1="295" y1="328" x2="295" y2="338" stroke="#8a6000" stroke-width="0.8"/>
+  <polygon points="315,328 315,338 325,333" fill="none" stroke="#8a6000" stroke-width="0.6"/>
+  <line x1="325" y1="328" x2="325" y2="338" stroke="#8a6000" stroke-width="0.8"/>
+
+  <circle cx="260" cy="362" r="5" fill="#1a1a3a" stroke="#3a3a5a" stroke-width="0.6"/>
+  <circle cx="280" cy="362" r="5" fill="#1a1a3a" stroke="#3a3a5a" stroke-width="0.6"/>
+  <circle cx="300" cy="362" r="5" fill="#1a1a3a" stroke="#3a3a5a" stroke-width="0.6"/>
+
+  <rect x="330" y="328" width="14" height="7" rx="2" fill="#888" stroke="#aaa" stroke-width="0.4"/>
+  <text x="337" y="334" text-anchor="middle" fill="#333" font-size="3" font-weight="bold">16MHz</text>
+
+  <!-- Antenna -->
+  <path d="M 365,298 L 372,298 L 372,291 L 379,291" stroke="#8a6000" stroke-width="0.5" fill="none"/>
+  <path d="M 372,298 L 372,305" stroke="#8a6000" stroke-width="0.5" fill="none"/>
+  <text x="381" y="294" fill="#5a8a5a" font-size="3">ANT</text>
+
+  <!-- Pin header -->
+  <rect x="355" y="340" width="18" height="22" rx="0.5" fill="#e0e0e0" stroke="#bbb" stroke-width="0.5"/>
+  <rect x="357" y="342" width="5" height="4" rx="0.3" fill="#8a6000"/><rect x="366" y="342" width="5" height="4" rx="0.3" fill="#8a6000"/>
+  <rect x="357" y="348" width="5" height="4" rx="0.3" fill="#8a6000"/><rect x="366" y="348" width="5" height="4" rx="0.3" fill="#8a6000"/>
+  <rect x="357" y="354" width="5" height="4" rx="0.3" fill="#8a6000"/><rect x="366" y="354" width="5" height="4" rx="0.3" fill="#8a6000"/>
+  <text x="364" y="338" text-anchor="middle" fill="#5a8a5a" font-size="3">J1</text>
+
+  <!-- Voltage regulator -->
+  <rect x="240" y="358" width="14" height="10" rx="0.5" fill="#e0e0e0" stroke="#bbb" stroke-width="0.5"/>
+  <rect x="241" y="355" width="12" height="3" rx="0.3" fill="#bbb"/>
+  <line x1="244" y1="368" x2="244" y2="373" stroke="#8a6000" stroke-width="0.6"/>
+  <line x1="247" y1="368" x2="247" y2="373" stroke="#8a6000" stroke-width="0.6"/>
+  <line x1="250" y1="368" x2="250" y2="373" stroke="#8a6000" stroke-width="0.6"/>
+  <text x="247" y="366" text-anchor="middle" fill="#5a8a5a" font-size="2.5">3.3V</text>
+
+  <!-- USB connector -->
+  <rect x="400" y="305" width="15" height="14" rx="2" fill="#555" stroke="#777" stroke-width="0.8"/>
+  <rect x="403" y="308" width="8" height="8" rx="1" fill="#444"/>
+  <text x="407" y="325" text-anchor="middle" fill="#5a8a5a" font-size="3.5">USB</text>
+
+  <!-- Test points + fiducials -->
+  <circle cx="385" cy="370" r="2.5" fill="none" stroke="#8a8a8a" stroke-width="0.6"/>
+  <text x="385" y="367" text-anchor="middle" fill="#5a8a5a" font-size="2.5">TP1</text>
+  <circle cx="398" cy="370" r="2.5" fill="none" stroke="#8a8a8a" stroke-width="0.6"/>
+  <text x="398" y="367" text-anchor="middle" fill="#5a8a5a" font-size="2.5">TP2</text>
+  <circle cx="38" cy="375" r="1.5" fill="none" stroke="#8a8a8a" stroke-width="0.4"/>
+  <circle cx="38" cy="375" r="0.5" fill="#8a8a8a"/>
+
+  <!-- Board rev -->
+  <text x="55" y="393" fill="#5a8a5a" font-size="3.5">REV 5.0 · JBC ELECTRONICS · MERIDA MX · LEAD-FREE · ROHS</text>
+
+  </g><!-- end PCB group -->
+
+  <!-- ════════════ USB CABLE (PCB → Monitor) ════════════ -->
+
+  <path d="M 415,340 C 432,340 440,340 455,340" stroke="#bbb" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M 415,340 C 432,340 440,340 455,340" stroke="url(#csig)" stroke-width="2" fill="none"/>
+
+  <!-- ════════════ COMPUTER MONITOR ════════════ -->
+
+  <!-- Bezel -->
+  <rect x="440" y="8" width="600" height="492" rx="8" fill="#e0e0e0" stroke="#bbb" stroke-width="1.5"/>
+  <!-- Webcam -->
+  <circle cx="740" cy="16" r="2" fill="#bbb"/>
+  <!-- Screen -->
+  <rect x="452" y="22" width="576" height="462" rx="4" fill="#f8f8f8"/>
+  <!-- Power LED -->
+  <circle cx="740" cy="496" r="2" fill="#1a7f37" opacity="0.4">
+    <animate attributeName="opacity" values="0.2;0.5;0.2" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Stand -->
+  <rect x="690" y="502" width="100" height="6" rx="2" fill="#bbb"/>
+  <rect x="718" y="508" width="44" height="12" rx="2" fill="#e0e0e0"/>
+
+  <!-- ═══ BOOT SEQUENCE ═══ -->
+
+  <text x="468" y="48" font-size="14" font-weight="bold" fill="#1a7f37">jorge-blancas v5.0</text>
+  <text x="468" y="63" font-size="11" fill="#bbb">════════════════════════════════════════════════════════════</text>
+  <rect x="468" y="72" width="350" height="10" rx="1" fill="#d0e8d0" opacity="0.3"/>
+  <rect x="468" y="72" width="0" height="10" rx="1" fill="#1a7f37"><animate attributeName="width" from="0" to="350" dur="3s" repeatCount="indefinite"/></rect>
+  <text x="828" y="80" font-size="11" fill="#1a7f37">0%<animate attributeName="opacity" values="1;1;0;0;0;1" keyTimes="0;0.081;0.091;0.101;0.909;1" dur="3s" repeatCount="indefinite"/></text>
+  <text x="828" y="80" font-size="11" fill="#1a7f37" opacity="0">10%<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.081;0.091;0.172;0.182;1" dur="3s" repeatCount="indefinite"/></text>
+  <text x="828" y="80" font-size="11" fill="#1a7f37" opacity="0">20%<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.172;0.182;0.263;0.273;1" dur="3s" repeatCount="indefinite"/></text>
+  <text x="828" y="80" font-size="11" fill="#1a7f37" opacity="0">30%<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.263;0.273;0.354;0.364;1" dur="3s" repeatCount="indefinite"/></text>
+  <text x="828" y="80" font-size="11" fill="#1a7f37" opacity="0">40%<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.354;0.364;0.445;0.455;1" dur="3s" repeatCount="indefinite"/></text>
+  <text x="828" y="80" font-size="11" fill="#1a7f37" opacity="0">50%<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.445;0.455;0.535;0.545;1" dur="3s" repeatCount="indefinite"/></text>
+  <text x="828" y="80" font-size="11" fill="#1a7f37" opacity="0">60%<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.535;0.545;0.626;0.636;1" dur="3s" repeatCount="indefinite"/></text>
+  <text x="828" y="80" font-size="11" fill="#1a7f37" opacity="0">70%<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.626;0.636;0.717;0.727;1" dur="3s" repeatCount="indefinite"/></text>
+  <text x="828" y="80" font-size="11" fill="#1a7f37" opacity="0">80%<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.717;0.727;0.808;0.818;1" dur="3s" repeatCount="indefinite"/></text>
+  <text x="828" y="80" font-size="11" fill="#1a7f37" opacity="0">90%<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.808;0.818;0.899;0.909;1" dur="3s" repeatCount="indefinite"/></text>
+  <text x="828" y="80" font-size="11" fill="#1a7f37" opacity="0">100%<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.899;0.909;0.990;0.995;1" dur="3s" repeatCount="indefinite"/></text>
+  <text x="468" y="99" font-size="11"><tspan fill="#9a6700">BIOS</tspan><tspan fill="#bbb"> .................. </tspan><tspan fill="#1f2328">Software Engineer</tspan></text>
+  <text x="468" y="112" font-size="11"><tspan fill="#9a6700">HOST</tspan><tspan fill="#bbb"> .................. </tspan><tspan fill="#1f2328">Moz Group (Ziff Davis)</tspan></text>
+  <text x="468" y="125" font-size="11"><tspan fill="#9a6700">CLOCK</tspan><tspan fill="#bbb"> ................. </tspan><tspan fill="#1f2328">5 years, 1 months, 24 days in production</tspan></text>
+  <text x="468" y="138" font-size="11"><tspan fill="#9a6700">FIRMWARE</tspan><tspan fill="#bbb"> .............. </tspan><tspan fill="#1f2328">Embedded → Industrial → Enterprise → FinTech → SEO SaaS</tspan></text>
+  <text x="468" y="151" font-size="11"><tspan fill="#9a6700">BOOT DEVICE</tspan><tspan fill="#bbb"> ........... </tspan><tspan fill="#1f2328">B.E. Computational Embedded Systems</tspan></text>
+  <text x="468" y="164" font-size="11"><tspan fill="#9a6700">UPTIME</tspan><tspan fill="#bbb"> ................ </tspan><tspan fill="#1f2328">27 years, 7 months, 28 days</tspan></text>
+  <text x="468" y="190" font-size="11" fill="#57606a">LOADING MODULES:</text>
+  <text x="468" y="205" font-size="10"><tspan fill="#1a7f37">[OK]</tspan><tspan fill="#1f2328"> typescript</tspan></text>
+  <text x="598" y="205" font-size="10"><tspan fill="#1a7f37">[OK]</tspan><tspan fill="#1f2328"> javascript</tspan></text>
+  <text x="728" y="205" font-size="10"><tspan fill="#1a7f37">[OK]</tspan><tspan fill="#1f2328"> python</tspan></text>
+  <text x="858" y="205" font-size="10"><tspan fill="#1a7f37">[OK]</tspan><tspan fill="#1f2328"> c</tspan></text>
+  <text x="468" y="218" font-size="10"><tspan fill="#1a7f37">[OK]</tspan><tspan fill="#1f2328"> c++</tspan></text>
+  <text x="598" y="218" font-size="10"><tspan fill="#1a7f37">[OK]</tspan><tspan fill="#1f2328"> c#</tspan></text>
+  <text x="728" y="218" font-size="10"><tspan fill="#1a7f37">[OK]</tspan><tspan fill="#1f2328"> bash</tspan></text>
+  <text x="858" y="218" font-size="10"><tspan fill="#1a7f37">[OK]</tspan><tspan fill="#1f2328"> redis</tspan></text>
+  <text x="468" y="231" font-size="10"><tspan fill="#1a7f37">[OK]</tspan><tspan fill="#1f2328"> postgresql</tspan></text>
+  <text x="598" y="231" font-size="10"><tspan fill="#1a7f37">[OK]</tspan><tspan fill="#1f2328"> cosmos-db</tspan></text>
+  <text x="728" y="231" font-size="10"><tspan fill="#1a7f37">[OK]</tspan><tspan fill="#1f2328"> mysql</tspan></text>
+  <text x="858" y="231" font-size="10"><tspan fill="#1a7f37">[OK]</tspan><tspan fill="#1f2328"> mongodb</tspan></text>
+  <text x="468" y="244" font-size="10"><tspan fill="#1a7f37">[OK]</tspan><tspan fill="#1f2328"> react</tspan></text>
+  <text x="598" y="244" font-size="10"><tspan fill="#1a7f37">[OK]</tspan><tspan fill="#1f2328"> redux</tspan></text>
+  <text x="728" y="244" font-size="10"><tspan fill="#1a7f37">[OK]</tspan><tspan fill="#1f2328"> storybook</tspan></text>
+  <text x="858" y="244" font-size="10"><tspan fill="#1a7f37">[OK]</tspan><tspan fill="#1f2328"> HTML/CSS/SASS</tspan></text>
+  <text x="468" y="257" font-size="10"><tspan fill="#1a7f37">[OK]</tspan><tspan fill="#1f2328"> node.js</tspan></text>
+  <text x="598" y="257" font-size="10"><tspan fill="#1a7f37">[OK]</tspan><tspan fill="#1f2328"> express</tspan></text>
+  <text x="728" y="257" font-size="10"><tspan fill="#1a7f37">[OK]</tspan><tspan fill="#1f2328"> serverless</tspan></text>
+  <text x="858" y="257" font-size="10"><tspan fill="#1a7f37">[OK]</tspan><tspan fill="#1f2328"> REST/BFF/graphql</tspan></text>
+  <text x="468" y="270" font-size="10"><tspan fill="#1a7f37">[OK]</tspan><tspan fill="#1f2328"> jest</tspan></text>
+  <text x="598" y="270" font-size="10"><tspan fill="#1a7f37">[OK]</tspan><tspan fill="#1f2328"> karate-ui</tspan></text>
+  <text x="728" y="270" font-size="10"><tspan fill="#1a7f37">[OK]</tspan><tspan fill="#1f2328"> postman</tspan></text>
+  <text x="858" y="270" font-size="10"><tspan fill="#1a7f37">[OK]</tspan><tspan fill="#1f2328"> chai/mocha</tspan></text>
+  <text x="468" y="283" font-size="10"><tspan fill="#1a7f37">[OK]</tspan><tspan fill="#1f2328"> azure</tspan></text>
+  <text x="598" y="283" font-size="10"><tspan fill="#1a7f37">[OK]</tspan><tspan fill="#1f2328"> aws</tspan></text>
+  <text x="728" y="283" font-size="10"><tspan fill="#1a7f37">[OK]</tspan><tspan fill="#1f2328"> docker</tspan></text>
+  <text x="858" y="283" font-size="10"><tspan fill="#1a7f37">[OK]</tspan><tspan fill="#1f2328"> terraform</tspan></text>
+  <text x="468" y="296" font-size="10"><tspan fill="#1a7f37">[OK]</tspan><tspan fill="#1f2328"> pic</tspan></text>
+  <text x="598" y="296" font-size="10"><tspan fill="#1a7f37">[OK]</tspan><tspan fill="#1f2328"> arduino</tspan></text>
+  <text x="728" y="296" font-size="10"><tspan fill="#1a7f37">[OK]</tspan><tspan fill="#1f2328"> esp32</tspan></text>
+  <text x="858" y="296" font-size="10"><tspan fill="#1a7f37">[OK]</tspan><tspan fill="#1f2328"> stm32</tspan></text>
+  <text x="468" y="309" font-size="10"><tspan fill="#1a7f37">[OK]</tspan><tspan fill="#1f2328"> psoc</tspan></text>
+  <text x="598" y="309" font-size="10"><tspan fill="#1a7f37">[OK]</tspan><tspan fill="#1f2328"> fpga</tspan></text>
+  <text x="728" y="309" font-size="10"><tspan fill="#1a7f37">[OK]</tspan><tspan fill="#1f2328"> raspberry-pi</tspan></text>
+  <text x="858" y="309" font-size="10"><tspan fill="#1a7f37">[OK]</tspan><tspan fill="#1f2328"> intel-edison</tspan></text>
+  <text x="468" y="322" font-size="10"><tspan fill="#1a7f37">[OK]</tspan><tspan fill="#1f2328"> eagle-cad</tspan></text>
+  <text x="598" y="322" font-size="10"><tspan fill="#1a7f37">[OK]</tspan><tspan fill="#1f2328"> siemens-plc</tspan></text>
+  <text x="728" y="322" font-size="10"><tspan fill="#1a7f37">[OK]</tspan><tspan fill="#1f2328"> labview</tspan></text>
+  <text x="858" y="322" font-size="10"><tspan fill="#1a7f37">[OK]</tspan><tspan fill="#1f2328"> solidworks</tspan></text>
+  <text x="468" y="348" font-size="11" fill="#57606a">SYSTEM LOG:</text>
+  <text x="468" y="363" font-size="11"><tspan fill="#999">├─ </tspan><tspan fill="#1f2328">Migrated <tspan fill="#1a7f37">2M+</tspan> Redis keys to v7, zero downtime</tspan></text>
+  <text x="468" y="376" font-size="11"><tspan fill="#999">├─ </tspan><tspan fill="#1f2328">Reduced E2E test runtime by <tspan fill="#1a7f37">75%</tspan> (46 → 12 min)</tspan></text>
+  <text x="468" y="389" font-size="11"><tspan fill="#999">├─ </tspan><tspan fill="#1f2328">Fixed security vulnerability across <tspan fill="#1a7f37">15+</tspan> APIs</tspan></text>
+  <text x="468" y="402" font-size="11"><tspan fill="#999">└─ </tspan><tspan fill="#1f2328">Mentored <tspan fill="#1a7f37">10+</tspan> developers, <tspan fill="#1a7f37">2</tspan> promotions</tspan></text>
+  <text x="468" y="428" font-size="11" fill="#57606a">NETWORK:</text>
+  <text x="468" y="443" font-size="11"><tspan fill="#999">├─ </tspan><tspan fill="#9a6700">linkedin</tspan><tspan fill="#999"> ─── </tspan><tspan fill="#0969da">linkedin.com/in/blancasjc</tspan></text>
+  <text x="468" y="456" font-size="11"><tspan fill="#999">└─ </tspan><tspan fill="#9a6700">web</tspan><tspan fill="#999"> ──────── </tspan><tspan fill="#0969da">blancasjc.dev</tspan></text>
+  <text x="468" y="477" font-size="11"><tspan fill="#1a7f37">▸ </tspan><tspan fill="#57606a">All systems operational. Ready for new challenges.</tspan></text>
+
+</svg>
