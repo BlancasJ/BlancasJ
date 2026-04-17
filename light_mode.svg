@@ -507,10 +507,10 @@
   <text x="725" y="82" font-size="12" fill="#1a7f37" opacity="0">100%<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.899;0.909;0.990;0.995;1" dur="3s" repeatCount="indefinite"/></text>
   <text x="365" y="102" font-size="12"><tspan fill="#9a6700">BIOS</tspan><tspan fill="#bbb"> .................. </tspan><tspan fill="#1f2328">Software Engineer</tspan></text>
   <text x="365" y="116" font-size="12"><tspan fill="#9a6700">HOST</tspan><tspan fill="#bbb"> .................. </tspan><tspan fill="#1f2328">Moz Group (Ziff Davis)</tspan></text>
-  <text x="365" y="130" font-size="12"><tspan fill="#9a6700">CLOCK</tspan><tspan fill="#bbb"> ................. </tspan><tspan fill="#1f2328">5 years, 2 months, 1 days in production</tspan></text>
+  <text x="365" y="130" font-size="12"><tspan fill="#9a6700">CLOCK</tspan><tspan fill="#bbb"> ................. </tspan><tspan fill="#1f2328">5 years, 2 months, 2 days in production</tspan></text>
   <text x="365" y="144" font-size="12"><tspan fill="#9a6700">FIRMWARE</tspan><tspan fill="#bbb"> .............. </tspan><tspan fill="#1f2328">Embedded → Industrial → Enterprise → FinTech → SEO SaaS</tspan></text>
   <text x="365" y="158" font-size="12"><tspan fill="#9a6700">BOOT DEVICE</tspan><tspan fill="#bbb"> ........... </tspan><tspan fill="#1f2328">B.E. Computational Embedded Systems</tspan></text>
-  <text x="365" y="172" font-size="12"><tspan fill="#9a6700">UPTIME</tspan><tspan fill="#bbb"> ................ </tspan><tspan fill="#1f2328">27 years, 8 months, 5 days</tspan></text>
+  <text x="365" y="172" font-size="12"><tspan fill="#9a6700">UPTIME</tspan><tspan fill="#bbb"> ................ </tspan><tspan fill="#1f2328">27 years, 8 months, 6 days</tspan></text>
   <text x="365" y="200" font-size="12" fill="#57606a">LOADING MODULES:</text>
   <text x="365" y="216" font-size="10"><tspan fill="#1a7f37">[OK]</tspan><tspan fill="#1f2328"> typescript</tspan></text>
   <text x="485" y="216" font-size="10"><tspan fill="#1a7f37">[OK]</tspan><tspan fill="#1f2328"> javascript</tspan></text>
